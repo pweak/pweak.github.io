@@ -54,6 +54,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jemoji
 
 # SEO tags
 title: pWeak's awesome blog
