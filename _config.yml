@@ -37,11 +37,11 @@ footer-links:
 disqus: pweak
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-124559212-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://pweak.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -53,6 +53,16 @@ baseurl: ""
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO tags
+title: pWeak's awesome blog
+description: A blog where a fullstack developer writes down programming languages
+author: igarridoatwork
+twitter:
+  username: igarridoatwork
+  card: summary
+lang: en_US
 
 #
 # !! You don't need to change any of the configuration flags below !!
